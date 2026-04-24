@@ -71,58 +71,6 @@ El tablero incluye un análisis focalizado en el grupo farmacológico **ANTIDIAB
 ├── requirements.txt        # Dependencias del proyecto
 └── README.md
 ```
-
-> ⚠️ El archivo `medicamentos.db` no se incluye en el repositorio por tamaño y confidencialidad. Debe colocarse en la raíz del proyecto antes de ejecutar la aplicación.
-
----
-
-## ⚙️ Instalación y Ejecución Local
-
-### 1. Clonar el repositorio
-```bash
-git clone https://github.com/tu-usuario/dashboard-medicamentos-eps.git
-cd dashboard-medicamentos-eps
-```
-
-### 2. Crear entorno virtual e instalar dependencias
-```bash
-python -m venv venv
-source venv/bin/activate        # En Windows: venv\Scripts\activate
-pip install -r requirements.txt
-```
-
-### 3. Colocar la base de datos
-Copia el archivo `medicamentos.db` en la raíz del proyecto.
-
-### 4. Ejecutar la aplicación
-```bash
-python app.py
-```
-
-Abre tu navegador en `http://localhost:8050`
-
----
-
-## 🚀 Despliegue
-
-El tablero está desplegado en **Render.com** y es accesible públicamente en:
-
-🔗 **[https://dashboard-medicamentos-eps.onrender.com](https://dashboard-medicamentos-eps.onrender.com)**
-
-### Pasos para redesplegar
-1. Hacer push a la rama `main` del repositorio
-2. Render detecta los cambios automáticamente y redespliega
-3. Build command: `pip install -r requirements.txt`
-4. Start command: `gunicorn app:server`
-
----
-
-## 📄 Documentación
-
-El documento PDF con la explicación detallada de la lógica del tablero, descripción de los datos, análisis de antidiabéticos y el código completo como anexo se encuentra en:
-
-📎 `docs/informe_tablero_medicamentos.pdf`
-
 ---
 
 ## 👤 Autor
@@ -133,4 +81,4 @@ Desarrollado como parte del taller de análisis de datos en salud — **Asegurad
 
 ## 📜 Licencia
 
-Este proyecto es de uso académico. Los datos utilizados son confidenciales y no se distribuyen en este repositorio.
+Este proyecto es de uso académico.
