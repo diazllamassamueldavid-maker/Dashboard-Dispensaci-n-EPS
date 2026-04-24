@@ -1,0 +1,86 @@
+body {
+    background-color: #E9EDF4;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Sidebar Styling */
+.sidebar {
+    background-color: #11223A !important;
+    color: #FFFFFF;
+    border-radius: 0 !important;
+    border: none !important;
+    min-height: 100vh;
+}
+
+.sidebar h4 {
+    color: #ffffff;
+    font-weight: 600;
+}
+
+.sidebar label {
+    color: #A0B2C6;
+    font-size: 0.9rem;
+    font-weight: 500;
+    margin-bottom: 5px;
+    margin-top: 15px;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+/* Fix dropdown text in sidebar */
+.sidebar .Select-value-label, .sidebar .Select-placeholder {
+    color: #333333 !important;
+}
+
+/* KPI Cards */
+.kpi-card {
+    background-color: #FFFFFF !important;
+    border-radius: 12px !important;
+    border: none !important;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.05) !important;
+    padding: 10px;
+    transition: transform 0.2s ease;
+}
+
+.kpi-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 25px rgba(0,0,0,0.1) !important;
+}
+
+.kpi-title {
+    color: #8C98A9;
+    font-size: 0.9rem;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+}
+
+.kpi-value {
+    color: #11223A;
+    font-weight: 700;
+    font-size: 2.2rem;
+}
+
+.kpi-icon {
+    font-size: 2.5rem;
+    color: #F39C12;
+    opacity: 0.9;
+}
+
+/* Chart Cards */
+.chart-card {
+    background-color: #FFFFFF !important;
+    border-radius: 12px !important;
+    border: none !important;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.05) !important;
+    padding: 20px;
+    margin-bottom: 25px;
+}
+
+.chart-header {
+    color: #11223A;
+    font-weight: 600;
+    margin-bottom: 15px;
+    font-size: 1.1rem;
+    border-bottom: 2px solid #F3F4F6;
+    padding-bottom: 10px;
+}
